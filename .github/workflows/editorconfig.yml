@@ -1,4 +1,4 @@
-name: editorconfig
+name: EditorConfig
 
 on:
   pull_request:
@@ -17,5 +17,4 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - run: npm ci
       - run: npm run editorconfig
