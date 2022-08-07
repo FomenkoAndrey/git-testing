@@ -1,4 +1,4 @@
-name: editorconfig
+name: w3c-html-validator
 on:
   pull_request:
   push:
@@ -17,4 +17,4 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
-      - run: npm run editorconfig
+      - run: npm run w3c-html-validator
