@@ -1,0 +1,23 @@
+{
+  "name": "git-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "editorconfig": "editorconfig-checker"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FomenkoAndrey/git-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FomenkoAndrey/git-testing/issues"
+  },
+  "homepage": "https://github.com/FomenkoAndrey/git-testing#readme",
+  "devDependencies": {
+    "editorconfig-checker": "^4.0.2"
+  }
+}
