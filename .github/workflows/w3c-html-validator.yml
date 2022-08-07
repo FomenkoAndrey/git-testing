@@ -1,9 +1,0 @@
-name: HTML5Validator
-on:
-  pull_request:
-  push:
-    branches:
-      - master
-uses: Cyb3r-Jak3/html5validator-action
-with:
-  root: ./

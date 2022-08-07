@@ -1,0 +1,16 @@
+name: HTML5Validator
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [16.x]
+    steps:
+      - uses: Cyb3r-Jak3/html5validator-action
+        with:
+          root: ./
