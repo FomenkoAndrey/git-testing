@@ -5,5 +5,5 @@ on:
     branches:
       - master
 uses: Cyb3r-Jak3/html5validator-action
-  with:
-    root: ./
+with:
+  root: ./
