@@ -1,4 +1,4 @@
-name: HTML CSS valid
+name: HTML CSS validation
 
 on:
   pull_request:
